@@ -1,0 +1,64 @@
+[{
+  "_id": {
+    "$oid": "6500c1671aa1a1b4a0cdd838"
+  },
+  "goal_reached": false,
+  "context_data": {
+    "mucha data": "cuanta data",
+    "mucha mas data": "mucha mas data"
+  },
+  "created": 1694472752.7823758,
+  "respond_ideal": 123,
+  "state": "message_sent",
+  "ivr_bloqueo": 123,
+  "task_canceled": false,
+  "process_at": 1695006000,
+  "last_visits": {
+    "professional": 123,
+    "specialty": 1694542500,
+    "global": 1694542500
+  },
+  "last_message_status": "processed",
+  "ancestor_type": "",
+  "channel": "email",
+  "updatted_at": 1694472753.9851377,
+  "calendar_event_id": "",
+  "respond_before": 123,
+  "context": "confirmation_mail_whatsapp",
+  "last_message_type": "voucher",
+  "company": {
+    "has_agenda": "0",
+    "calendar_id": "",
+    "_id": "597a4ca46215ec584da8a9c8",
+    "logo": "static/images/integramedica_logo.png",
+    "id": "16",
+    "url": "https://www.integramedica.cl",
+    "timezone": "America/Santiago",
+    "name": "Integramédica",
+    "short_name": "integramedica",
+    "paty_name": "None"
+  },
+  "flow": "16, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 22, 1, 1, 3, 0",
+  "read_at": 1694472752.863247,
+  "ancestor": "",
+  "retries": 123,
+  "last_conversation": {
+    "email": "sebastian.castillo@gmail.com",
+    "number": "56995942356",
+    "created": 1694472752.9534733,
+    "in_reply_to": {},
+    "subject": "Cita Medica de Broncopulmonar Adulto en Integramédica Barcelona",
+    "channel": "email",
+    "source": 123,
+    "_id": "64ff9a302bddea0fc2977974",
+    "sub_context": "consulta"
+  },
+  "retries_bloqueo": 123,
+  "send_at": 123,
+  "created_at": 1694472752.7233427,
+  "language": "es",
+  "derived_to": 12345678,
+  "direction": "outbound",
+  "execution_state": "message_sent",
+  "ivr_call": 123
+}]

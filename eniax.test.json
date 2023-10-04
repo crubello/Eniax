@@ -1,0 +1,179 @@
+[{
+  "_id": {
+    "$oid": "650076d98efda38da95b5a74"
+  },
+  "hits": 0,
+  "category": "Reagendar",
+  "direction": "outbound",
+  "context_group": "confirmation",
+  "context": "confirmation",
+  "question": "¿Cómo puedo reagendar?",
+  "id": 185,
+  "@timestamp": "2021-05-03T16:51:00.196Z",
+  "@version": "1",
+  "category_id": 1,
+  "tags": "reagendar",
+  "phrase": "Para reagendar debe llamar al  #phone o ingresar a  #company_url. Quedo a la espera de la confirmación o anulación de esta hora.‍",
+  "company_short_name": "sanatorio_aleman"
+},
+{
+  "_id": {
+    "$oid": "650076d98efda38da95b5a76"
+  },
+  "hits": 0,
+  "category": "Atrasado",
+  "direction": "outbound",
+  "context_group": "confirmation",
+  "context": "confirmation",
+  "question": "¿Cuánto me esperan si voy atrasado?",
+  "id": 187,
+  "@timestamp": "2021-05-03T16:54:00.177Z",
+  "@version": "1",
+  "category_id": 3,
+  "tags": "atrasado, atraso, espera",
+  "phrase": "Si su demora supera los 10 minutos, le sugerimos reagendar su hora.",
+  "company_short_name": "sanatorio_aleman"
+},
+{
+  "_id": {
+    "$oid": "650076d98efda38da95b5a77"
+  },
+  "hits": 0,
+  "category": "Bonos",
+  "direction": "outbound",
+  "context_group": "confirmation",
+  "context": "confirmation",
+  "question": "¿Puedo comprar bonos en el centro?",
+  "id": 189,
+  "@timestamp": "2021-05-03T16:58:00.239Z",
+  "@version": "1",
+  "category_id": 5,
+  "tags": "bonos",
+  "phrase": "Si, puede comprar la mayoría de los bonos en el centro. Si desea revisar un caso particular, por favor ingrese a https://www.sanatorioaleman.cl/clinica/ , ahí encontrará la información.",
+  "company_short_name": "sanatorio_aleman"
+},
+{
+  "_id": {
+    "$oid": "650076d98efda38da95b5a79"
+  },
+  "hits": 0,
+  "category": "Medios de pago",
+  "direction": "outbound",
+  "context_group": "confirmation",
+  "context": "confirmation",
+  "question": "¿Qué medios de pago tienen?",
+  "id": 197,
+  "@timestamp": "2021-06-16T16:28:00.138Z",
+  "@version": "1",
+  "category_id": 11,
+  "tags": "medios, pago, formas",
+  "phrase": "Puede pagar con tarjeta o efectivo en la mayoría de los casos.",
+  "company_short_name": "sanatorio_aleman"
+},
+{
+  "_id": {
+    "$oid": "650076d98efda38da95b5a7a"
+  },
+  "category": "Fonasa",
+  "direction": "outbound",
+  "context_group": "confirmation",
+  "context": "confirmation",
+  "question": "¿Cuáles son los datos para comprar los bonos?",
+  "id": 191,
+  "@timestamp": "2021-07-09T19:43:00.185Z",
+  "@version": "1",
+  "category_id": 7,
+  "tags": "fonasa, bonos, compra, datos",
+  "phrase": "Los bonos se compran a nombre de la Clínica Sanatorio Alemán con el rut 76.389.986-1. Para información adicional, por favor comuníquese al #phone.",
+  "company_short_name": "sanatorio_aleman"
+},
+{
+  "_id": {
+    "$oid": "650076d98efda38da95b5a7c"
+  },
+  "category": "Estacionamientos",
+  "direction": "outbound",
+  "context_group": "confirmation",
+  "context": "confirmation",
+  "question": "Estacionamiento en utm?",
+  "id": 416,
+  "@timestamp": "2022-03-23T15:55:00.184Z",
+  "company_short_name": "sanatorio_aleman",
+  "phrase": "Estimado Paciente,\nLas UTM con estacionamiento liberado sujeto a disponibilidad son Centro Médico Brisas del sol, Utm Chiguayante, Utm Andalué, Utm San Pedro de la Paz (Versluys).\nEn utm Sanatorio cuenta con estacionamiento estacionamiento privado, al que puede acceder por calle Junge, y un\nestacionamiento gratuito en calle P.de Valdivia esquina La Mochita.",
+  "category_id": 10,
+  "tags": "estacionamiento, utm",
+  "hits": 0,
+  "@version": "1"
+},
+{
+  "_id": {
+    "$oid": "650076d98efda38da95b5a7b"
+  },
+  "category": "Estacionamientos",
+  "direction": "outbound",
+  "context_group": "confirmation",
+  "context": "confirmation",
+  "question": "¿Hay estacionamientos?",
+  "id": 194,
+  "@timestamp": "2022-03-23T15:50:00.175Z",
+  "company_short_name": "sanatorio_aleman",
+  "phrase": "Estimado paciente, en Sanatorio Alemán, contamos con estacionamiento privado, al que puede acceder por calle Mahuzier, y un estacionamiento gratuito en calle P.de Valdivia esquina La Mochita.",
+  "category_id": 10,
+  "tags": "estacionamiento, estacionamientos",
+  "hits": 0,
+  "@version": "1"
+},
+{
+  "_id": {
+    "$oid": "650076d98efda38da95b5a75"
+  },
+  "hits": 0,
+  "category": "Sobrecupo",
+  "direction": "outbound",
+  "context_group": "confirmation",
+  "context": "confirmation",
+  "question": "¿Cómo puedo agendar un sobrecupo?",
+  "id": 186,
+  "@timestamp": "2021-05-03T16:53:00.091Z",
+  "@version": "1",
+  "category_id": 2,
+  "tags": "sobrecupo, sobrecupos",
+  "phrase": "Los sobrecupos los debe solicitar previamente con el médico, ya que son autorizados de manera excepcional.",
+  "company_short_name": "sanatorio_aleman"
+},
+{
+  "_id": {
+    "$oid": "650076d98efda38da95b5a78"
+  },
+  "hits": 0,
+  "category": "Acompañantes",
+  "direction": "outbound",
+  "context_group": "confirmation",
+  "context": "confirmation",
+  "question": "¿Puedo asistir con acompañantes, cuál es el protocolo?",
+  "id": 199,
+  "@timestamp": "2021-05-07T14:16:00.060Z",
+  "@version": "1",
+  "category_id": 12,
+  "tags": "acompañante, acompañantes, protocolo",
+  "phrase": "Hemos restringido el ingreso de acompañantes a las consultas médicas. Esto excluye las atenciones pediátricas, tercera edad y aquellas personas con necesidades especiales. Para mayor información por favor ingrese a https://www.sanatorioaleman.cl/medidas-de-seguridad/ .",
+  "company_short_name": "sanatorio_aleman"
+},
+{
+  "_id": {
+    "$oid": "650076d98efda38da95b5a7d"
+  },
+  "category": "Bonos",
+  "direction": "outbound",
+  "context_group": "confirmation",
+  "context": "confirmation",
+  "question": "Tengo bono electrónico, pero no tengo para imprimir ¿cómo lo hago?",
+  "id": 219,
+  "@timestamp": "2022-06-23T15:37:00.124Z",
+  "company_short_name": "sanatorio_aleman",
+  "phrase": "Puede llevar el bono desde su celular e imprimirlo en la recepción del piso antes de su atención.\n      ",
+  "category_id": 5,
+  "tags": "bonos, imprimir, electronicos",
+  "hits": 0,
+  "@version": "1"
+}]
