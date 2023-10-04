@@ -1,4 +1,6 @@
- paso 1
+// se recomienda usar Compass
+
+paso 1
 // cargar los archivos .json en sus respectivas colecciones
 // base de datos eniax
 // colección 1 - regex
