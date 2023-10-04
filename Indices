@@ -1,0 +1,147 @@
+//Indices Search eniax.regex
+
+//regex
+
+{
+  "mappings": {
+    "fields": {
+      "context": {
+        "analyzer": "mappingAnalyzer",
+        "type": "string"
+      }
+    }
+  },
+  "analyzers": [
+    {
+      "charFilters": [
+        {
+          "mappings": {
+            "-": "",
+            "_": ""
+          },
+          "type": "mapping"
+        }
+      ],
+      "name": "mappingAnalyzer",
+      "tokenizer": {
+        "type": "keyword"
+      }
+    }
+  ]
+}
+
+
+// autocomplete
+
+{
+  "mappings": {
+    "fields": {
+      "context": {
+        "analyzer": "mappingAnalyzer",
+        "type": "autocomplete"
+      }
+    }
+  },
+  "analyzers": [
+    {
+      "charFilters": [
+        {
+          "mappings": {
+            "_": " "
+          },
+          "type": "mapping"
+        }
+      ],
+      "name": "mappingAnalyzer",
+      "tokenizer": {
+        "type": "keyword"
+      }
+    }
+  ]
+}
+
+// string_edgeGram
+
+{
+  "mappings": {
+    "fields": {
+      "context": {
+        "analyzer": "mappingAnalyzer",
+        "type": "string"
+      }
+    }
+  },
+  "analyzers": [
+    {
+      "charFilters": [
+        {
+          "mappings": {
+            "_": " "
+          },
+          "type": "mapping"
+        }
+      ],
+      "name": "mappingAnalyzer",
+      "tokenizer": {
+        "maxGram": 12,
+        "minGram": 4,
+        "type": "edgeGram"
+      }
+    }
+  ]
+}
+
+// string_nGram
+
+{
+  "mappings": {
+    "fields": {
+      "context": {
+        "analyzer": "mappingAnalyzer",
+        "type": "string"
+      }
+    }
+  },
+  "analyzers": [
+    {
+      "charFilters": [
+        {
+          "mappings": {
+            "_": " "
+          },
+          "type": "mapping"
+        }
+      ],
+      "name": "mappingAnalyzer",
+      "tokenizer": {
+        "maxGram": 12,
+        "minGram": 4,
+        "type": "nGram"
+      }
+    }
+  ]
+}
+
+// Indices Search eniax.test 
+
+// default2 
+
+{
+  "mappings": {
+    "dynamic": false,
+    "fields": {
+      "category_id": {
+        "type": "number"
+      },
+      "company_short_name": {
+        "type": "string"
+      },
+      "context": {
+        "type": "string"
+      },
+      "tags": {
+        "type": "string"
+      }
+    }
+  }
+}
