@@ -1,0 +1,132 @@
+// aggregates eniax.regex
+
+// regex
+
+[
+  {
+    $search:
+      {
+        index: "regex",
+        phrase: {
+          query: "confirmationmailwhatsapp",
+          path: "context",
+        },
+      },
+  },
+]
+
+
+// autocomplete
+
+[
+  {
+    $search:
+      // sequential
+      {
+        index: "autocomplete",
+        autocomplete: {
+          query: "co",
+          path: "context",
+          tokenOrder: "sequential",
+          fuzzy: {
+            maxEdits: 2,
+            prefixLength: 0,
+            maxExpansions: 50,
+          },
+        },
+      },
+  },
+]
+
+// string_edgeGram
+
+[
+  {
+    $search:
+      {
+        index: "string_edgeGram",
+        text: {
+          query: "COnf",
+          path: "context",
+          fuzzy: {
+            maxEdits: 2,
+            prefixLength: 0,
+          },
+        },
+      },
+  },
+]
+
+
+// string_nGram
+
+[
+  {
+    $search: {
+      index: "string_nGram",
+      text: {
+        query: "WhaT",
+        path: "context",
+        fuzzy: {
+          maxEdits: 2,
+          prefixLength: 0,
+          maxExpansions: 50,
+        },
+      },
+    },
+  },
+]
+
+
+// aggregates eniax.test 
+
+// default2
+
+[
+  {
+    $search:
+      {
+        index: "default2",
+        compound: {
+          must: [
+            {
+              text: {
+                query: "sanatorio_aleman",
+                path: "company_short_name",
+                fuzzy: {
+                  maxEdits: 2,
+                  prefixLength: 0,
+                  maxExpansions: 50,
+                },
+              },
+              text: {
+                query: "confirmation",
+                path: "context",
+                fuzzy: {
+                  maxEdits: 2,
+                  prefixLength: 0,
+                  maxExpansions: 50,
+                },
+              },
+            },
+          ],
+          should: [
+            {
+              text: {
+                query: "bonos",
+                path: "tags",
+                fuzzy: {
+                  maxEdits: 2,
+                  prefixLength: 0,
+                  maxExpansions: 50,
+                },
+              },
+            },
+          ],
+          minimumShouldMatch: 1,
+        },
+      },
+  },
+]
+
+
